@@ -1,0 +1,123 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(29, 29, 31);
+
+}
+.none{
+    display: none;
+}
+
+
+.main{
+    display: flex;
+}
+.main .left{
+    background-color: rgb(42, 42, 44);
+width: 25%;
+height: 100vh;
+position: fixed;
+padding: 20px;
+display: flex;
+align-items: center;
+}
+.main .left .container{
+    background-color: rgb(27, 26, 23);
+}
+.row h1{
+    text-align: center;
+    color: rgb(167, 165, 165);
+}
+.main .left .container .row .form-group{
+display: flex;
+width: 350px;
+}
+.validationMessage{
+    width: 30%;
+    color: red;
+    display: none;
+}
+.main .left .container .row .form-group input{
+    width: 95%;
+    height: 30px;
+    margin: 5px 10px ;
+    border: 0px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.114);
+font-size: 15px;
+color: white;
+}
+.colorPart{
+    color : rgb(118, 118, 118);
+    margin: 10px 0px;
+    display: flex;
+
+ }
+
+
+
+/*=================================================*/
+.main .right{
+    margin-left: 420px;
+    background-color: rgb(29, 29, 31);
+    width: 100%;
+    padding: 20px;    
+}
+.clearBtn button ,.createBtn{
+    width: 100%;
+    border: 0px;
+    border-radius: 20px;
+    padding: 15px 0px;
+    margin: 10px 10px ;
+    background-color:  rgba(110, 197, 232, 0.345);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+.main .right .cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main .right .cards .oneCard{
+    background-image: linear-gradient(180deg, rgb(110, 198, 232), rgb(0, 0, 0));
+    width: 19%;
+    margin: 5px;
+    box-sizing:content-box;
+    border-radius: 20px;
+}
+.main .right .cards .oneCard img{
+    width: 100%;
+    height: 140px;
+    border-radius: 20px 20px 0px 0px;
+}
+.main .right .cards .oneCard span{
+    display: block;
+    color: white;
+
+    margin: 5px 0px;
+    margin-left: 10px;
+}
+
+
+i{
+    color: rgb(8, 78, 91);
+    margin: 10px 40px;
+    text-align: center;
+}
+
+.color{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    
+}
+
+/* ================== */
+
+
+.header{
+    padding: 30px 0px;
+    font-size: 40px;
+}
