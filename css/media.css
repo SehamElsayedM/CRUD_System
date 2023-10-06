@@ -1,0 +1,75 @@
+@media(max-width:750px) {
+    body {
+        background-color: rgb(42, 42, 44)
+    }
+
+    .main .left {
+        width: 80%;
+        height: 70vh;
+        position: relative;
+        padding: 0px;
+        margin: 30px 20px;
+        align-items: baseline;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main .right {
+        margin-left: 0px;
+        width: 90%;
+    }
+
+    .main .right .cards .oneCard {
+        width: 47%;
+        margin: 10px 5px;
+    }
+
+    i {
+        color: rgb(8, 78, 91);
+        margin: 10px 30px;
+    }
+
+}
+
+@media(max-width:900px) {
+    body {
+        background-color: rgb(42, 42, 44)
+    }
+
+    .main .left {
+        width: 80%;
+        height: 50vh;
+        position: relative;
+        padding: 0px;
+        margin: 30px 100px;
+        align-items: baseline;
+    }
+
+    .main .left .container .row .form-group {
+        width: 650px;
+        margin: 10px 0px;
+    }
+
+    .main {
+        display: block;
+    }
+
+    .main .right {
+        margin-left: 20px;
+        margin-top: 250px;
+        width: 90%;
+    }
+
+    .main .right .cards .oneCard {
+        width: 23%;
+        margin: 10px 5px;
+    }
+
+    i {
+        color: rgb(8, 78, 91);
+        margin: 10px 30px;
+    }
+
+}

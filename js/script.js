@@ -51,7 +51,7 @@ let createProduct = () => {
         amount: inputs[4].value,
         total: inputs[5].value,
         type: inputs[6].value,
-        src: file.name,
+        src: inputs[7].value,
         day: date.getDate(),
         month: date.getMonth(),
         year: date.getFullYear(),
@@ -97,7 +97,7 @@ let show = () => {
         inner += `
          <div class="oneCard">
                         <div class="image">
-                            <img src="./img/${Data[i].src}" alt="">
+                            <img src="${Data[i].src}" alt="">
                         </div>
                         <div class="data">
                             <span>Name :${Data[i].title} </span>
